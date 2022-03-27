@@ -1,11 +1,14 @@
 import React, { Component } from 'react';
 import HomeHeader from './HomeHeader';
+import HomeNavBar from './HomeNavBar';
 export class HomePage extends Component {
   render() {
     return (
-      <div>
-        <HomeHeader />
-      </div>
+      <>
+        {/* <HomeHeader /> */}
+        <HomeNavBar />
+        <div style={{ marginTop: '70px' }}>Some context</div>
+      </>
     );
   }
 }
